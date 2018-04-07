@@ -6,7 +6,15 @@
 		"@types/node": "9.4.6",
 		"date-diff": "0.1.3",
 		"discord.js": "11.2.0",
-		"jsonfile": "3.0.1"
+		"jsonfile": "3.0.1",
+		 "@types/node": "8.9.1",
+		    "camo": "git+https://github.com/benji7425/camo.git#v0.12.4",
+		    "cron": "1.3.0",
+		    "discord.js": "11.2.0",
+		    "nedb": "1.8.0",
+		    "parent-package-json": "2.0.1",
+		    "require-all": "2.2.0",
+		"simple-file-writer": "2.0.0"
 	},
 	"devDependencies": {
 		"eslint": "4.14.0"
