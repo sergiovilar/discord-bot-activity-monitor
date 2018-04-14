@@ -14,7 +14,7 @@ const guildsIterator = (function* () {
 })();
 
 // @ts-ignore
-const client = new Core.Client(require("../token.json"), __dirname + "/commands", GuildData);
+const client = new Core.Client(process.ENV.BOT_TOKEN, __dirname + "/commands", GuildData);
 
 client.on("beforeLogin", () => {
     setInterval(doGuildIteration, Config.guildIterationInterval);
